@@ -1,0 +1,22 @@
+.left{
+    border: 1px solid #ddd;
+    width: 200px;
+    height: calc(100vh - 52px);
+}
+.left .nav{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e1e1e1;
+    border-bottom: 1px solid #fff;
+}
+.left .nav:hover{
+    background-color: #c1c1c1;
+}
+.left .nav.active{
+    background-color: #666;
+    color: #fff;
+}

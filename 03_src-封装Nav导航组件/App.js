@@ -21,7 +21,7 @@ export default class App extends Component {
                         {/* Switch组件作用是防止相同路径的组件重复匹配，相同的路由只匹配一次，可以提供效率，如果没有出现重复的路由，可以不用这个组件 */}
                         {/* exact属性是设置路由规则要进行精准严格匹配，严格匹配根据实际情况使用  默认情况下是模糊匹配*/}
                         <Switch>
-                            <Route path="/home" component={Home} />
+                            <Route exact path="/home" component={Home} />
                             <Route path="/about" component={About} />
 
                             {/* 重定向路由：路由规则都没有匹配上的时候，就由此重定向到指定的某个路由（比如首页或者单独的404页面），此路由一般写在所有注册路由的最下方 */}
