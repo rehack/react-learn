@@ -5,6 +5,7 @@
 * 存放目录不同
     一般组件：components
     路由组件：pages
+    容器组件：container
 * 接收到的props不同
     一般组件：<Todolist/> 组件标签里传递了什么，props就收到什么
     路由组件：接收3个固定的属性 
